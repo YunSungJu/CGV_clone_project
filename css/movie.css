@@ -1,0 +1,97 @@
+body {
+	line-height: 1.2;
+	background-color: #fdfcf0;
+    color: #666;
+    font-family: 'CJONLYONENEW', '맑은 고딕', '돋움', Dotum, sans-serif;
+    font-weight: 300;
+}
+
+#banner {
+	border-bottom: 3px solid #241d1e;
+	margin-bottom: 20px;
+	padding-bottom: 0px;
+}
+
+select {
+	display: inline-block;
+	float: right;
+}
+
+ol {
+	list-style: none;
+	border-bottom: 3px solid #241d1e;
+	overflow: hidden;
+}
+
+.movie_chart {
+
+}
+
+.movie_chart > ol > li {
+	float: left;
+    width: 197px;
+    margin-left: 64px;
+    padding-bottom: 30px;
+}
+
+.box {
+	position: relative;
+    width: 200px;
+    min-height: 272px;
+    margin-bottom: 10px;
+}
+
+.box img {
+	display: block;
+    position: relative;
+    border: 6px solid #000000;
+    width: 188px;
+}
+
+.rank {
+	color: white;
+	background-color: red;
+	display: block;
+    height: 28px;
+    margin-bottom: 4px;
+    border: 6px solid #000000;
+    text-align-last: center;
+	font-size: 25px;
+}
+
+.movie_title {
+	display: block;
+    color: #333333;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    /*overflow: hidden;*/
+}
+
+.percent {
+	font-size: 12px;
+}
+
+.percent span {
+	font-size: 12px;
+	color: #333333;
+    font-weight: normal;
+    font-family: Verdana, Geneva, sans-serif;
+    margin-left: 10px;
+}
+
+.release {
+	margin-top: 3px;
+    height: 13px;
+    color: #666666;
+    font-weight: 500;
+    white-space: nowrap;
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.reservation {
+	width: 150px;
+	margin-top: 15px;
+}
+
