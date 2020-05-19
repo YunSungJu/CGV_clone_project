@@ -1,3 +1,7 @@
+#lg{
+	margin: 100px 100px 0 450px;
+}
+
 #container :first-child{
 	font-size: 13px;
 	line-height: 1.5;
