@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/movie.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
     <title>Document</title>
 </head>
 <body>
@@ -15,8 +17,115 @@
         </ul>
     </div>
     <div id="container">
-        
+    	<div id="banner">
+    		<h1>무비차트</h1>
+    	</div>
+        <div>
+        	<input type="checkbox" title="현재 선택됨" checked="">
+        	<label>현재 상영작만 보기</label>
+        	<select name="order-type">
+        		<option value="1">예매율순</option>
+        		<option value="2">평점순</option>
+        		<option value="1">관람객순</option>
+        	</select>
+        </div>
+        <div class="movie_chart">
+        	<ol>
+        		<li>
+        			<div class="box">
+        				<strong class="rank">No.1</strong>
+                        <img src="http://img.cgv.co.kr/Movie/Thumbnail/Poster/000083/83134/83134_320.jpg" alt="톰보이 포스터">
+        			</div>
+        			<strong class="movie_title">톰보이</strong>
+        			<strong class="percent">
+        				예매율<span>12.4%</span>
+        			</strong>
+        			<strong class="release">2020.05.14 개봉</strong>
+        			<img class="reservation" src="reservation.png">
+        		</li>
+        		<li>
+        			<div class="box">
+        				<strong class="rank">No.2</strong>
+                        <img src=http://img.cgv.co.kr/Movie/Thumbnail/Poster/000083/83251/83251_320.jpg alt="프리즌 이스케이프 포스터">
+        			</div>
+        			<strong class="movie_title">프리즌 이스케이프</strong>
+        			<strong class="percent">
+        				예매율<span>11.1%</span>
+        			</strong>
+        			<strong class="release">2020.05.06 개봉</strong>
+        			<img class="reservation" src="reservation.png">
+        		</li>
+        		<li>
+        			<div class="box">
+        				<strong class="rank">No.3</strong>
+                        <img src="http://img.cgv.co.kr/Movie/Thumbnail/Poster/000079/79567/79567_320.jpg" alt="패왕별희 디 오리지널 포스터" >
+        			</div>
+        			<strong class="movie_title">패왕별희 디 오리지널</strong>
+        			<strong class="percent">
+        				예매율<span>8.0%</span>
+        			</strong>
+        			<strong class="release">2020.05.01 재개봉</strong>
+        			<img class="reservation" src="reservation.png">
+        		</li>
+        	</ol>
+        	<ol>
+        		<li>
+        			<div class="box">
+        				<strong class="rank">No.4</strong>
+                        <img src="http://img.cgv.co.kr/Movie/Thumbnail/Poster/000083/83217/83217_320.jpg" alt="레이니 데이 인 뉴욕 포스터" >
+        			</div>
+        			<strong class="movie_title">레이디 데이 인 뉴욕</strong>
+        			<strong class="percent">
+        				예매율<span>4.9%</span>
+        			</strong>
+        			<strong class="release">2020.05.06 개봉</strong>
+        			<img class="reservation" src="reservation.png">
+        		</li>
+        		<li>
+        			<div class="box">
+        				<strong class="rank">No.5</strong>
+                        <img src="http://img.cgv.co.kr/Movie/Thumbnail/Poster/000083/83254/83254_320.jpg" alt="콜 오브 와일드 포스터" >
+        			</div>
+        			<strong class="movie_title">콜 오브 와일드</strong>
+        			<strong class="percent">
+        				예매율<span>3.7%</span>
+        			</strong>
+        			<strong class="release">2020.05.14 개봉</strong>
+        			<img class="reservation" src="reservation.png">
+        		</li>
+        		<li>
+        			<div class="box">
+        				<strong class="rank">No.6</strong>
+                        <img src="http://img.cgv.co.kr/Movie/Thumbnail/Poster/000083/83065/83065_320.jpg" alt="1917 포스터" >
+        			</div>
+        			<strong class="movie_title">1917</strong>
+        			<strong class="percent">
+        				예매율<span>2.5%</span>
+        			</strong>
+        			<strong class="release">2020.02.19 개봉</strong>
+        			<img class="reservation" src="reservation.png">
+        		</li>
+        		<li>
+        			<div class="box">
+        				<strong class="rank">No.7</strong>
+                        <img src="http://img.cgv.co.kr/Movie/Thumbnail/Poster/000083/83224/83224_320.jpg" alt="저 산 너머 포스터" >
+        			</div>
+        			<strong class="movie_title">저 산 너머</strong>
+        			<strong class="percent">
+        				예매율<span>2.1%</span>
+        			</strong>
+        			<strong class="release">2020.04.30 개봉</strong>
+        			<img class="reservation" src="reservation.png">
+        		</li>
+        	</ol>
+        </div>
     </div>
     
 </body>
 </html>
+
+
+
+
+
+
