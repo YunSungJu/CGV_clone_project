@@ -1,0 +1,74 @@
+.wrap {
+    margin: 0 auto;
+    width: 874px;
+    height: 390px;
+    padding: 60px 53px 0;
+    background-image: url(../bg_theater.gif);
+}
+
+.sect-city {
+    height: 42px;
+    margin-top: 18px;
+    border-top: 2px solid #727171;
+    border-bottom : 2px solid #727171;
+    vertical-align: baseline;
+}
+
+.sect-city > ul {
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sect-city > ul li {
+    float: left;
+    margin: 0 8px;
+}
+
+.sect-city > ul > li > a {
+    padding: 0 19px;
+    color: #dbdbdb;
+    font-size: 14px;
+    line-height: 42px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.area {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    width: 854px;
+}
+
+.area > ul {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.area > ul > li {
+    position: relative;
+    color: #dbdbdb;
+    margin: 6px 35px 0 0;
+    line-height: 35px;
+    cursor: pointer;
+}
+
+.area > ul > li > a::before {
+    content: "|";
+    position: absolute;
+    right: -17px;
+}
+
+.on {
+    display: block !important; 
+}
+
+li:hover {
+    color: white !important;
+}

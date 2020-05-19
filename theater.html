@@ -3,20 +3,262 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/theater.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="onoff.js"></script>
     <title>Document</title>
 </head>
 <body>
     <div id="menu">
-        <a href="index.html"><img src="h1_cgv.png" alt="logo"></a>
-        <ul>
-            <li><a href="movie.html">영화</a></li>
-            <li><a href="theater.html">극장</a></li>
-            <li><a href="login.html">로그인</a></li>
-        </ul>
+        <h1>
+            <a href="index.html"><img src="h1_cgv.png" alt="logo"></a>
+        </h1>
+        <div id="submenu">
+            <h2>
+                <img src="h2_cultureplex.png" alt="logo">
+            </h2>
+            <ul>
+                <li><a href="movie.html">영화</a></li>
+                <li><a href="theater.html">극장</a></li>
+                <li><a href="login.html">로그인</a></li>
+            </ul>
+        </div>
     </div>
     <div id="container">
-        
+        <div class="wrap">
+            <div class="sect-city">
+                <ul>
+                    <li>
+                        <a href="#">서울</a>
+                        <div class="area">
+                            <ul class="on">
+                                <li><a>CGV강남</a></li>
+                                <li><a>CGV강변</a></li>
+                                <li><a>CGV건대입구</a></li>
+                                <li><a>CGV구로</a></li>
+                                <li><a>CGV대학로</a></li>
+                                <li><a>CGV동대문</a></li>
+                                <li><a>CGV등촌</a></li>
+                                <li><a>CGV명동 X 이진혁</a></li>
+                                <li><a>CGV명동역 씨네라이브러리</a></li>
+                                <li><a>CGV목동</a></li>
+                                <li><a>CGV미아</a></li>
+                                <li><a>CGV불광</a></li>
+                                <li><a>CGV상봉</a></li>
+                                <li><a>CGV성신여대입구</a></li>
+                                <li><a>CGV송파</a></li>
+                                <li><a>CGV수유</a></li>
+                                <li><a>CGV신촌아트레온</a></li>
+                                <li><a>CGV압구정</a></li>
+                                <li><a>CGV여의도</a></li>
+                                <li><a>CGV영등포</a></li>
+                                <li><a>CGV왕십리</a></li>
+                                <li><a>CGV용산아이파크몰</a></li>
+                                <li><a>CGV중계</a></li>
+                                <li><a>CGV천호</a></li>
+                                <li><a>CGV청담씨네시티</a></li>
+                                <li><a>CGV피카디리1958</a></li>
+                                <li><a>CGV하계</a></li>
+                                <li><a>CGV홍대</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">경기</a>
+                        <div class="area">
+                            <ul>
+                                <li><a>CGV경기광주</a></li>
+                                <li><a>CGV광교상현</a></li>
+                                <li><a>CGV광명철산</a></li>
+                                <li><a>CGV구리</a></li>
+                                <li><a>CGV김포</a></li>
+                                <li><a>CGV김포운양</a></li>
+                                <li><a>CGV김포풍무</a></li>
+                                <li><a>CGV김포한강</a></li>
+                                <li><a>CGV동백</a></li>
+                                <li><a>CGV동수원</a></li>
+                                <li><a>CGV동탄</a></li>
+                                <li><a>CGV동탄역</a></li>
+                                <li><a>CGV배곧</a></li>
+                                <li><a>CGV범계</a></li>
+                                <li><a>CGV부천</a></li>
+                                <li><a>CGV부천역</a></li>
+                                <li><a>CGV북수원</a></li>
+                                <li><a>CGV산본</a></li>
+                                <li><a>CGV서현</a></li>
+                                <li><a>CGV소풍</a></li>
+                                <li><a>CGV수원</a></li>
+                                <li><a>CGV스타필드시티위례</a></li>
+                                <li><a>CGV시흥</a></li>
+                                <li><a>CGV안산</a></li>
+                                <li><a>CGV안성</a></li>
+                                <li><a>CGV야탑</a></li>
+                                <li><a>CGV역곡</a></li>
+                                <li><a>CGV오리</a></li>
+                                <li><a>CGV용인</a></li>
+                                <li><a>CGV의정부</a></li>
+                                <li><a>CGV의정부태흥</a></li>
+                                <li><a>CGV이천</a></li>
+                                <li><a>CGV일산</a></li>
+                                <li><a>CGV죽전</a></li>
+                                <li><a>CGV파주문산</a></li>
+                                <li><a>CGV판교</a></li>
+                                <li><a>CGV평촌</a></li>
+                                <li><a>CGV평택</a></li>
+                                <li><a>CGV평택소사</a></li>
+                                <li><a>CGV화성봉담</a></li>
+                                <li><a>CGV화정</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">인천</a>
+                        <div class="area">
+                            <ul>
+                                <li><a>CGV계양</a></li>
+                                <li><a>CGV남주안</a></li>
+                                <li><a>CGV부평</a></li>
+                                <li><a>CGV연수역</a></li>
+                                <li><a>CGV인천</a></li>
+                                <li><a>CGV인천공항</a></li>
+                                <li><a>CGV인천논현</a></li>
+                                <li><a>CGV인천연수</a></li>
+                                <li><a>CGV주안역</a></li>
+                                <li><a>CGV청라</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">강원</a>
+                        <div class="area">
+                            <ul>
+                                <li><a>CGV강릉</a></li>
+                                <li><a>CGV원주</a></li>
+                                <li><a>CGV인제</a></li>
+                                <li><a>CGV춘천</a></li>
+                                <li><a>CGV춘천명동</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">대전/충청</a>
+                        <div class="area">
+                            <ul>
+                                <li><a>CGV당진</a></li>
+                                <li><a>CGV대전</a></li>
+                                <li><a>CGV대전가수원</a></li>
+                                <li><a>CGV대전가오</a></li>
+                                <li><a>CGV대전탄방</a></li>
+                                <li><a>CGV대전터미널</a></li>
+                                <li><a>CGV보령</a></li>
+                                <li><a>CGV서산</a></li>
+                                <li><a>CGV세종</a></li>
+                                <li><a>CGV유성노은</a></li>
+                                <li><a>CGV유성온천</a></li>
+                                <li><a>CGV천안</a></li>
+                                <li><a>CGV천안터미널</a></li>
+                                <li><a>CGV천안펜타포트</a></li>
+                                <li><a>CGV청주(서문)</a></li>
+                                <li><a>CGV청주성안길</a></li>
+                                <li><a>CGV청주율량</a></li>
+                                <li><a>CGV청주지웰시티</a></li>
+                                <li><a>CGV청주터미널</a></li>
+                                <li><a>CGV충북혁신</a></li>
+                                <li><a>CGV홍성</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">대구</a>
+                        <div class="area">
+                            <ul>
+                                <li><a>CGV대구</a></li>
+                                <li><a>CGV대구수성</a></li>
+                                <li><a>CGV대구스타디움</a></li>
+                                <li><a>CGV대구아카데미</a></li>
+                                <li><a>CGV대구월성</a></li>
+                                <li><a>CGV대구이시아</a></li>
+                                <li><a>CGV대구칠곡</a></li>
+                                <li><a>CGV대구한일</a></li>
+                                <li><a>CGV대구현대</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">부산/울산</a>
+                        <div class="area">
+                            <ul>
+                                <li><a>CGV남포</a></li>
+                                <li><a>CGV대연</a></li>
+                                <li><a>CGV대한</a></li>
+                                <li><a>CGV동래</a></li>
+                                <li><a>CGV서면</a></li>
+                                <li><a>CGV서면삼정타워</a></li>
+                                <li><a>CGV센텀시티</a></li>
+                                <li><a>CGV아시아드</a></li>
+                                <li><a>CGV울산삼산</a></li>
+                                <li><a>CGV울산진장</a></li>
+                                <li><a>CGV정관</a></li>
+                                <li><a>CGV하단아트몰링</a></li>
+                                <li><a>CGV해운대</a></li>
+                                <li><a>CGV화명</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">경상</a>
+                        <div class="area">
+                            <ul>
+                                <li><a>CGV거제</a></li>
+                                <li><a>CGV구미</a></li>
+                                <li><a>CGV김천율곡</a></li>
+                                <li><a>CGV김해</a></li>
+                                <li><a>CGV김해장유</a></li>
+                                <li><a>CGV마산</a></li>
+                                <li><a>CGV북포항</a></li>
+                                <li><a>CGV안동</a></li>
+                                <li><a>CGV양산물금</a></li>
+                                <li><a>CGV창원</a></li>
+                                <li><a>CGV창원더시티</a></li>
+                                <li><a>CGV통영</a></li>
+                                <li><a>CGV포항</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">광주/전라/제주</a>
+                        <div class="area">
+                            <ul>
+                                <li><a>CGV광양</a></li>
+                                <li><a>CGV광양 엘에프스퀘어</a></li>
+                                <li><a>CGV광주금남로</a></li>
+                                <li><a>CGV광주상무</a></li>
+                                <li><a>CGV광주용봉</a></li>
+                                <li><a>CGV광주첨단</a></li>
+                                <li><a>CGV광주충장로</a></li>
+                                <li><a>CGV광주터미널</a></li>
+                                <li><a>CGV광주하남</a></li>
+                                <li><a>CGV군산</a></li>
+                                <li><a>CGV나주</a></li>
+                                <li><a>CGV목포</a></li>
+                                <li><a>CGV목포평화광장</a></li>
+                                <li><a>CGV서전주</a></li>
+                                <li><a>CGV순천</a></li>
+                                <li><a>CGV순천신대</a></li>
+                                <li><a>CGV여수웅천</a></li>
+                                <li><a>CGV익산</a></li>
+                                <li><a>CGV전주고사</a></li>
+                                <li><a>CGV전주효자</a></li>
+                                <li><a>CGV정읍</a></li>
+                                <li><a>CGV제주</a></li>
+                                <li><a>CGV제주노형</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
     
 </body>
