@@ -3,6 +3,7 @@
     height: 120px;
     background: url(../bg_header.gif);
     background-position: 0px -30px;
+    margin: 0px auto;
 }
 
 #menu > h1 {
@@ -45,6 +46,7 @@
 }
 
 #container {
+    margin: 0px auto;
     width: 1200px;
     height: 1000px;
     padding-top: 20px;
