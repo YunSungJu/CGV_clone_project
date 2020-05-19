@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="login.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -16,11 +17,11 @@
         </ul>
     </div>
     <div id="container">
+        <p>아이디 비밀번호를 입력하신 후, 로그인 버튼을 클릭해 주세요.</p>
             <form action="login.php" method="get">
-            <input type="text" name="ID">
-            <br>
-            <input type="PASSWORD" name="PW">
-            <BUTTON>로그인</BUTTON>        
+                <input type="text" id ="id" name="ID">
+                <input type="PASSWORD" id = "pw" name="PW">
+                <button id = "login"> 로그인 </button>        
     </form>
     </div>
     

@@ -12,7 +12,6 @@
 		for($i = 0; $i<count($result); $i++){
         	if($result[$i]["ID"] == $ID and $result[$i]["PW"] == $PW){
         		header("Location: index.html");
-        		//echo "jfoefiejiofjeiofjioejf";
         	}
 
         }

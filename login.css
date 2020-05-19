@@ -1,0 +1,36 @@
+#container :first-child{
+	font-size: 13px;
+	line-height: 1.5;
+	color: #666;
+}
+
+#id{
+	display: block;
+	width: 258px;
+	height: 35px;
+	padding: 0 5px 0 40px;
+	margin-bottom: 5px;
+	border: 2px solid #b5b5b5;
+	line-height: 33px;
+}
+
+#pw{
+	display: block;
+	width: 258px;
+	height: 35px;
+	padding: 0 5px 0 40px;
+	margin-bottom: 5px;
+	border: 2px solid #b5b5b5;
+	line-height: 33px;
+}
+
+#login{
+	display: block;
+	width: 307px;
+	height: 36px;
+	border: 1px solid #f07469;
+	background: #e71a0f;
+	color: rgb(241, 233, 223);
+	font-size: 15px;
+	font-weight: 500;
+}
